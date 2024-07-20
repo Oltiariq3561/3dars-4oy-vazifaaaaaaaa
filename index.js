@@ -182,6 +182,14 @@
 // console.log(res);
 // }
 
+// 14-masala
+// let num = +prompt("son kiriting");
+// let res = 1;
+// for (let i = 1; i <= num; i++){
+//     res = i**2;
+// }
+// console.log(res);
+
 // boolean
 
 // let a = +prompt('son');
@@ -243,3 +251,9 @@
 // }
 
 
+let num = +prompt("son kiriting");
+let res = 1;
+for (let i = 1; i <= num; i++){
+    res = res * i;
+}
+console.log(res);
